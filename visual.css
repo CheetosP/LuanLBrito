@@ -78,9 +78,11 @@ p {
 
 /* personalização só para os links do Portfólio */
 .links {
-  max-width: 300px;
-  margin: 10px auto;
+  max-width: 350px;
+  margin: 20px auto;
   color: #ff7300;
+  font-size: 20px;
+  font-style: normal
 }
 
 /* estilo do formulário */
@@ -125,4 +127,3 @@ p {
   font-size: 20px;
   font-weight: bold;
 }
-
