@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Trabalho</title>
+  <link rel="stylesheet" href="visual.css">
+</head>
+<body>
+
+<a href="index.html" class="menu">Voltar </a>
+
+  <nav>
+    <ul>
+      <li><a href="SobreMim.html">Sobre Mim</a></li>
+      <li><a href="formacao.html">Formação</a></li>
+      <li><a href="portfolio.html">Portfólio</a></li>
+      <li><a href="contato.html">Contatos</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <h1 class="caixas">Contatos</h1>
+    <!-- Apenas visual, não envia -->
+    <form class="formulario">
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome" name="nome" placeholder="Digite seu nome"> <!-- caixa para add qualquer texto -->
+
+      <label for="email">Email:</label> <!-- caixa que exige msg no formato de e-mail -->
+      <input type="email" id="email" name="email" placeholder="Digite seu email">
+
+      <label for="mensagem">Mensagem:</label>
+      <textarea id="mensagem" name="mensagem" rows="5" placeholder="Digite sua mensagem"></textarea>
+
+      <input class="botao" type="submit" value="Enviar"> <!-- tipo de botão clicável e redirecionável -->
+    </form>
+  </main>
+
+</body>
+</html>

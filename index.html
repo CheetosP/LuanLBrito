@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Trabalho</title> <!-- #dentro de head adiciona o título que aparece na guia do navegador-->
+  <link rel="stylesheet" href="visual.css"> <!-- #sincronizando a página html na do CSS-->
+</head>
+<body>
+
+  <nav> <!-- bloco pra organização -->
+    <ul>
+      <li><a href="SobreMim.html">Sobre Mim</a></li> <!-- links pras páginas separadas -->
+      <li><a href="formacao.html">Formação</a></li>
+      <li><a href="portfolio.html">Portfólio</a></li>
+      <li><a href="contato.html">Contatos</a></li>
+    </ul>
+  </nav>
+
+
+  <main>
+    <!-- Sobre Mim -->
+    <h1 class="caixas">Sobre Mim</h1> <!-- título h1 até h6 -->
+    <p>Me chamo Luan Brito. Minha maior diversão é games, animes e a imersão que proporcionam.</p> <!-- parágrafos -->
+    <p>Atualmente estudando muito pra faculdade e fazendo curso á parte, trabalho com telemarketing.</p>
+    <p>Nas horas livres reservo um tempinho com a namorada e assistir vídeos no YouTube sobre reflexões da fé.</p>
+    
+    <!-- Formação -->
+    <h1 class="caixas">Formação</h1>
+    <p>Atualmente curso Análise e Desenvolvimento de Sistemas na Uninter.</p>
+    <p>Idiomas: Português (nativo), inglês (básico).</p>
+    <p>Ensino médio completo.</p>
+    
+    <!-- Portfólio -->
+    <h1 class="caixas">Portfólio</h1>
+    <p>Meus projetos:</p>
+    <ul class="links"> <!-- lista não ordenada -->
+      <li><a href="https://exemplo1.com" target="_blank">Projeto 1 – Bolo da Analu</a></li> <!-- primeiro item da lista -->
+      <li><a href="https://exemplo2.com" target="_blank">Projeto 2 – Diagrama Dimensional: Em breve...</a></li>
+    </ul>
+
+    <!-- Contatos -->
+    <h1 class="caixas">Contatos</h1>
+    <!-- Apenas visual, não envia -->
+    <form class="formulario"> <!-- tag pra formulário -->
+      <label for="nome">Nome:</label> 
+      <input type="text" id="nome" name="nome" placeholder="Digite seu nome"><!-- tipo de campo que vai receber a mensagem -->
+
+      <label for="email">Email:</label> 
+      <input type="email" id="email" name="email" placeholder="Digite seu email"> <!-- tipo que pede @, modelo de e-mail padrão -->
+
+      <label for="mensagem">Mensagem:</label>
+      <textarea id="mensagem" name="mensagem" rows="5" placeholder="Digite sua mensagem"></textarea> <!-- campo para uma mensagem comum -->
+
+      <input class="botao" type="submit" value="Enviar"> <!-- botão com função de submit, o comum seria <button> -->
+    </form>
+  </main>
+</body>
+</html>
